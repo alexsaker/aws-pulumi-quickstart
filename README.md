@@ -30,4 +30,3 @@ curl $(pulumi stack output bucketEndpoint)
 pulumi destroy
 pulumi stack rm dev
 ```
-curl $(pulumi stack output bucketEndpoint)
